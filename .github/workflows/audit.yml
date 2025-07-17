@@ -27,10 +27,10 @@ jobs:
 
       - name: Commit and Push Logs
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         continue-on-error: true
         run: |
-          git remote set-url origin https://raselmandol:${GH_TOKEN}@github.com/raselmandol/Auditor.git
+          git remote set-url origin https://raselmandol:${PAT_TOKEN}@github.com/raselmandol/Auditor.git
           git config user.name "${{ secrets.GIT_USER_NAME }}"
           git config user.email "${{ secrets.GIT_USER_EMAIL }}"
           git add log.txt
