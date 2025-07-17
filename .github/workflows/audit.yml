@@ -42,3 +42,8 @@ jobs:
           git remote -v
           git config user.name
           git config user.email
+
+      - name: Debug PAT_TOKEN
+        run: echo "PAT_TOKEN starts with: ${PAT_TOKEN:0:4}****"
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
