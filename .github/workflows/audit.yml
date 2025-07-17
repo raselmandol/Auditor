@@ -28,6 +28,7 @@ jobs:
       - name: Commit and Push Logs
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        continue-on-error: true
         run: |
           git config user.name "${{ secrets.GIT_USER_NAME }}"
           git config user.email "${{ secrets.GIT_USER_EMAIL }}"
