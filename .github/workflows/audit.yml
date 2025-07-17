@@ -18,7 +18,7 @@ jobs:
           node-version: '18'
 
       - name: Install Octokit
-        run: npm install @octokit/rest
+        run: npm install @octokit/rest@18
 
       - name: Run Auditor
         env:
