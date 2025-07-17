@@ -8,6 +8,8 @@ on:
 jobs:
   audit:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -36,13 +38,10 @@ jobs:
           fi
 
       - name: Commit and Push Logs
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         continue-on-error: true
         run: |
           git config --global user.name "${{ secrets.GIT_USER_NAME }}"
           git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
-          git config --global url."https://raselmandol:${PAT_TOKEN}@github.com/".insteadOf "https://github.com/"
           git add log.txt
           git commit -m "Audit update $(date -u)" || echo "No changes to commit"
           git push origin HEAD:main
