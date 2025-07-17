@@ -1,0 +1,480 @@
+# GitHub Audit Log
+
+**Last updated:** 2025-07-17T20:33:38.223Z
+
+## 📁 agriVision
+🔹 Description: Repo of project agriVision for the challenge "Leveraging Earth Observation Data for Informed Agricultural Decision-Making" for the NASA's Space App Challenge
+🔹 Private: No
+🔹 Language: CSS
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 2410 KB
+🔹 Created: 10/6/2024
+🔹 Updated: 10/30/2024
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): 12
+🔹 Contributors: 3
+🔹 Workflows: 0
+---
+
+## 📁 Auditor
+🔹 Description: Audit-bot for GitHub repos.
+🔹 Private: No
+🔹 Language: JavaScript
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 10 KB
+🔹 Created: 7/17/2025
+🔹 Updated: 7/17/2025
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 2
+  - GitHub Auditor: active
+  - pages-build-deployment: active
+---
+
+## 📁 avinash-lang
+🔹 Description: AvinashLang (avinash-lang) is originally inspired from BhaiLang and MamaLang. See Readme for more details.
+🔹 Private: No
+🔹 Language: JavaScript
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 420 KB
+🔹 Created: 3/21/2024
+🔹 Updated: 1/26/2025
+🔹 README: Available
+🔹 Latest Release: avinash-lang v1.0.0
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 chatgpt-heatmap
+🔹 Description: This project visualizes ChatGPT conversation activity in a GitHub-style heatmap.
+🔹 Private: No
+🔹 Language: Jupyter Notebook
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 282 KB
+🔹 Created: 1/15/2025
+🔹 Updated: 1/17/2025
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 comprehensive-rust-bn
+🔹 Description: This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust to everyone.
+🔹 Private: No
+🔹 Language: Rust
+🔹 Stars: 1
+🔹 Forks: 0
+🔹 Size: 23314 KB
+🔹 Created: 5/23/2023
+🔹 Updated: 3/7/2025
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 30
+🔹 Workflows: 4
+  - Test: active
+  - Prevent unintended msgid changes: active
+  - Pull Request Labeler: active
+  - Publish: active
+---
+
+## 📁 comprehensive-rust-bn-desktop
+🔹 Description: Desktop application for Comprehensive Rust-bn built using electron js.
+🔹 Private: No
+🔹 Language: HTML
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 8256 KB
+🔹 Created: 8/30/2023
+🔹 Updated: 1/26/2025
+🔹 README: Available
+🔹 Latest Release: V1.0.0 translated in Bengali, Bengali translation only.
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 cpphardware
+🔹 Description: interaction with hardware or the kernel using C++ programming.
+🔹 Private: No
+🔹 Language: C++
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 407 KB
+🔹 Created: 8/15/2023
+🔹 Updated: 4/22/2024
+🔹 README: Not Found
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 CV-CUDA
+🔹 Description: CV-CUDA™ is an open-source, GPU accelerated library for cloud-scale image processing and computer vision.
+🔹 Private: No
+🔹 Language: C++
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 3808 KB
+🔹 Created: 12/26/2023
+🔹 Updated: 12/26/2023
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 3
+🔹 Workflows: 0
+---
+
+## 📁 c_sharp_random
+🔹 Description: Common issues faced by junior developers in Windows Forms Applications.
+🔹 Private: No
+🔹 Language: C#
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 173 KB
+🔹 Created: 5/5/2023
+🔹 Updated: 4/24/2025
+🔹 README: Not Found
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 demikernel
+🔹 Description: Kernel-Bypass LibOS Architecture
+🔹 Private: No
+🔹 Language: Rust
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 9028 KB
+🔹 Created: 12/24/2023
+🔹 Updated: 12/24/2023
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 21
+🔹 Workflows: 6
+  - Main Catloop: active
+  - Main Catmem: active
+  - Main Catnap: active
+  - Main Catnapw: active
+  - Main Catnip: active
+  - Main Catpowder: active
+---
+
+## 📁 FANetTensorflow
+🔹 Description: Tensorflow version of the FANet Model
+🔹 Private: No
+🔹 Language: Python
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 73763 KB
+🔹 Created: 11/9/2023
+🔹 Updated: 11/9/2023
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 floating_mascot
+🔹 Description: A floating mascot app made with PyQt6. You can load animated GIFs or images.
+🔹 Private: No
+🔹 Language: Python
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 33007 KB
+🔹 Created: 5/6/2025
+🔹 Updated: 6/4/2025
+🔹 README: Available
+🔹 Latest Release: floating-mascot-v1.3.0
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): 49
+🔹 Contributors: 2
+🔹 Workflows: 0
+---
+
+## 📁 gptDesk
+🔹 Description: This desktop application leverages the power of ChatGPT, an advanced natural language processing model.
+🔹 Private: No
+🔹 Language: C#
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 12232 KB
+🔹 Created: 7/12/2023
+🔹 Updated: 4/24/2025
+🔹 README: Available
+🔹 Latest Release: gptDesk v1.0.0 without the main functions added.
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 KOELbit-RvA
+🔹 Description: KOELbit RvA (Ransomware vs Antivirus) is a SvS code fight project to test the defending mechanism of Antivirus software applications.
+🔹 Private: No
+🔹 Language: C#
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 19711 KB
+🔹 Created: 9/20/2023
+🔹 Updated: 5/8/2025
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): 8
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 lockfile-c
+🔹 Description: These programs are simple but very powerful, written in C that can lock/encrypt/hide files in a safe way and also can do the reverse using a password.
+🔹 Private: No
+🔹 Language: C
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 104 KB
+🔹 Created: 4/28/2023
+🔹 Updated: 5/8/2025
+🔹 README: Not Found
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): 0
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 MKDCNetTensorflow
+🔹 Description: Tensorflow version of the MKDCNet Model
+🔹 Private: No
+🔹 Language: Python
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 73236 KB
+🔹 Created: 11/9/2023
+🔹 Updated: 11/9/2023
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 mlx
+🔹 Description: MLX: An array framework for Apple silicon
+🔹 Private: No
+🔹 Language: N/A
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 11311 KB
+🔹 Created: 3/19/2024
+🔹 Updated: 3/19/2024
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 30
+🔹 Workflows: 0
+---
+
+## 📁 ransomware-files-handling
+🔹 Description: written in c++, can check and show the ransomware affected files and their directories.
+🔹 Private: No
+🔹 Language: C++
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 116 KB
+🔹 Created: 4/30/2023
+🔹 Updated: 5/8/2025
+🔹 README: Not Found
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 raselmandol
+🔹 Description: a little about me
+🔹 Private: No
+🔹 Language: LLVM
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 170 KB
+🔹 Created: 4/6/2023
+🔹 Updated: 7/12/2025
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 2
+🔹 Workflows: 0
+---
+
+## 📁 raselmandol.github.io
+🔹 Description: github_page for raselm.me
+🔹 Private: No
+🔹 Language: HTML
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 74596 KB
+🔹 Created: 7/9/2024
+🔹 Updated: 7/12/2025
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 2
+🔹 Workflows: 14
+  - Axe accessibility testing: active
+  - Check for broken links on site: active
+  - Check for broken links: active
+  - CodeQL Advanced: active
+  - Docker Image CI (Upload Tag): active
+  - Docker Image CI: active
+  - Deploy site: active
+  - Docker Slim: active
+  - Lighthouse Badger: active
+  - Comment on pull request: active
+  - Prettify gh-pages: active
+  - Prettier code formatter: active
+  - Update TOCs: active
+  - pages-build-deployment: active
+---
+
+## 📁 sqlmap-bn
+🔹 Description: Automatic SQL injection and database takeover tool
+🔹 Private: No
+🔹 Language: Python
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 83234 KB
+🔹 Created: 1/8/2025
+🔹 Updated: 1/8/2025
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): 0
+🔹 Contributors: 30
+🔹 Workflows: 0
+---
+
+## 📁 sqlmap-gui
+🔹 Description: GUI for SQLMAP, a powerful tool for automated SQL injection. Stable for use in Windows environments.
+🔹 Private: No
+🔹 Language: Python
+🔹 Stars: 14
+🔹 Forks: 2
+🔹 Size: 383 KB
+🔹 Created: 7/14/2024
+🔹 Updated: 7/17/2025
+🔹 README: Available
+🔹 Latest Release: sqlmap-gui v1.1.0
+🔹 Open Issues: 1
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 Swin-Transformer
+🔹 Description: This is an official implementation for "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows".
+🔹 Private: No
+🔹 Language: Python
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 1087 KB
+🔹 Created: 12/24/2023
+🔹 Updated: 12/24/2023
+🔹 README: Available
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): N/A
+🔹 Contributors: 13
+🔹 Workflows: 0
+---
+
+## 📁 ubGUI
+🔹 Description: UB GUI is a desktop application to give windows a look of Ubuntu.
+🔹 Private: No
+🔹 Language: C#
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 23227 KB
+🔹 Created: 6/9/2023
+🔹 Updated: 1/26/2025
+🔹 README: Available
+🔹 Latest Release: UB GUI v1.1.0
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): 1
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
+## 📁 WindowsTasks
+🔹 Description: These programs are written to interact with Windows Tasks.
+🔹 Private: No
+🔹 Language: C
+🔹 Stars: 0
+🔹 Forks: 0
+🔹 Size: 104 KB
+🔹 Created: 5/8/2023
+🔹 Updated: 7/8/2024
+🔹 README: Not Found
+🔹 Latest Release: None
+🔹 Open Issues: 0
+🔹 Open PRs: 0
+🔹 Commits (last year): 0
+🔹 Contributors: 1
+🔹 Workflows: 0
+---
+
