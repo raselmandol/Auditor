@@ -8,8 +8,24 @@
 </head>
 <body>
   <h1>GitHub Repository Audit Dashboard</h1>
-  <canvas id="repoChart" height="100"></canvas>
+  
+  <div class="charts-container">
+    <div class="chart-item">
+      <canvas id="issuesPRsChart"></canvas>
+    </div>
+    <div class="chart-item">
+      <canvas id="starsForksChart"></canvas>
+    </div>
+    <div class="chart-item">
+      <canvas id="activityChart"></canvas>
+    </div>
+    <div class="chart-item">
+      <canvas id="languageChart"></canvas>
+    </div>
+  </div>
+  
   <div id="repos"></div>
+  
   <footer>
     <p>Last Updated: <span id="timestamp">...</span></p>
   </footer>

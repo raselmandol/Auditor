@@ -3,7 +3,7 @@ name: GitHub Auditor
 on:
   schedule:
     - cron: '0 */6 * * *'  # Every 6 hours
-  push:
+  workflow_dispatch:  # Allow manual triggering
 
 jobs:
   audit:

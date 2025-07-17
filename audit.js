@@ -16,9 +16,15 @@ const octokit = new Octokit({ auth: token });
   let log = `# GitHub Audit Log\n\n**Last updated:** ${timestamp}\n\n`;
 
   for (const repo of repos) {
-    log += `## ${repo.name}\n`;
+    log += `## 📁 ${repo.name}\n`;
     log += `🔹 Description: ${repo.description || "N/A"}\n`;
     log += `🔹 Private: ${repo.private ? "Yes" : "No"}\n`;
+    log += `🔹 Language: ${repo.language || "N/A"}\n`;
+    log += `🔹 Stars: ${repo.stargazers_count}\n`;
+    log += `🔹 Forks: ${repo.forks_count}\n`;
+    log += `🔹 Size: ${repo.size} KB\n`;
+    log += `🔹 Created: ${new Date(repo.created_at).toLocaleDateString()}\n`;
+    log += `🔹 Updated: ${new Date(repo.updated_at).toLocaleDateString()}\n`;
 
     // README
     try {
@@ -41,17 +47,35 @@ const octokit = new Octokit({ auth: token });
       octokit.issues.listForRepo({ owner: username, repo: repo.name, state: "open" }),
       octokit.pulls.list({ owner: username, repo: repo.name, state: "open" })
     ]);
-    log += ` Open Issues: ${issues.data.length}\n`;
-    log += ` Open PRs: ${pulls.data.length}\n`;
+    log += `🔹 Open Issues: ${issues.data.length}\n`;
+    log += `🔹 Open PRs: ${pulls.data.length}\n`;
+
+    // Get commit activity (last 52 weeks)
+    try {
+      const activity = await octokit.repos.getCommitActivityStats({ owner: username, repo: repo.name });
+      const totalCommits = activity.data.reduce((sum, week) => sum + week.total, 0);
+      log += `🔹 Commits (last year): ${totalCommits}\n`;
+    } catch {
+      log += `🔹 Commits (last year): N/A\n`;
+    }
+
+    // Get contributors
+    try {
+      const contributors = await octokit.repos.listContributors({ owner: username, repo: repo.name });
+      log += `🔹 Contributors: ${contributors.data.length}\n`;
+    } catch {
+      log += `🔹 Contributors: N/A\n`;
+    }
 
     // Actions
     try {
       const workflows = await octokit.actions.listRepoWorkflows({ owner: username, repo: repo.name });
+      log += `🔹 Workflows: ${workflows.data.total_count}\n`;
       for (const wf of workflows.data.workflows) {
-        log += ` Workflow: ${wf.name} → Status: ${wf.state}\n`;
+        log += `  - ${wf.name}: ${wf.state}\n`;
       }
     } catch {
-      log += ` Workflows: N/A\n`;
+      log += `🔹 Workflows: N/A\n`;
     }
 
     log += `---\n\n`;
