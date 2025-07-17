@@ -35,3 +35,9 @@ jobs:
           git commit -m "Audit update $(date -u)" || echo "No changes to commit"
           git remote set-url origin https://raselmandol:${GH_TOKEN}@github.com/raselmandol/Auditor.git
           git push origin HEAD:main
+
+      - name: Debug Git Remote
+        run: |
+          git remote -v
+          git config user.name
+          git config user.email
