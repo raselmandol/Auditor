@@ -23,7 +23,7 @@ jobs:
       - name: Run Auditor
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: node script.js
+        run: node audit.js
 
       - name: Commit and Push Logs
         run: |
