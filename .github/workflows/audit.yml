@@ -25,6 +25,16 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: node audit.js
 
+      - name: Debug PAT_TOKEN
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          if [ -z "$PAT_TOKEN" ]; then
+            echo "PAT_TOKEN is empty or not set!"
+          else
+            echo "PAT_TOKEN starts with: ${PAT_TOKEN:0:4}****"
+          fi
+
       - name: Commit and Push Logs
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
