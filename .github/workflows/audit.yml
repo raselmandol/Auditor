@@ -30,11 +30,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         continue-on-error: true
         run: |
+          git remote set-url origin https://raselmandol:${GH_TOKEN}@github.com/raselmandol/Auditor.git
           git config user.name "${{ secrets.GIT_USER_NAME }}"
           git config user.email "${{ secrets.GIT_USER_EMAIL }}"
           git add log.txt
           git commit -m "Audit update $(date -u)" || echo "No changes to commit"
-          git remote set-url origin https://raselmandol:${GH_TOKEN}@github.com/raselmandol/Auditor.git
           git push origin HEAD:main
 
       - name: Debug Git Remote
