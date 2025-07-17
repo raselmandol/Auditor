@@ -26,9 +26,11 @@ jobs:
         run: node audit.js
 
       - name: Commit and Push Logs
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config user.name "${{ secrets.GIT_USER_NAME }}"
           git config user.email "${{ secrets.GIT_USER_EMAIL }}"
           git add log.txt
           git commit -m "Audit update $(date -u)" || echo "No changes to commit"
-          git push
+          git push https://raselmandol:${GH_TOKEN}@github.com/raselmandol/Auditor.git HEAD:main
