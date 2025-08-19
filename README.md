@@ -41,7 +41,7 @@ cd Auditor
 ```
 
 ### 2. Setup GitHub Secrets
-Go to your repository **Settings** → **Secrets and variables** → **Actions** and add:
+Go to your repository **Settings** -> **Secrets and variables** -> **Actions** and add:
 
 | Secret Name | Description | Required |
 |-------------|-------------|----------|
@@ -158,5 +158,5 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Chart.js**: For beautiful and interactive charts
 - **GitHub Actions**: For automated workflow execution
 - **GitHub Pages**: For free dashboard hosting
-- **Copilot**, **Claude Sonnet 4**, **GPT-4.1**: For always helping me debug errors, suggest code and fixes, and build this repo--including this README.
+- **Copilot**, **Claude Sonnet 4**, **GPT-4.1**: For always helping me debug errors, suggest code and fixes, and build this repo—including this README.
 
