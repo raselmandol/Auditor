@@ -140,6 +140,26 @@ schedule:
   # - cron: '0 0 * * 0'   # Weekly on Sunday
 ```
 
+> If you want to use the old **audit.yml** that adds every task as a contribution to your GitHub contribution graph, refer to the setup below:
+
+```yaml
+      - name: Run Auditor
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: node audit.js
+
+
+      - name: Commit and Push Logs
+        continue-on-error: true
+        run: |
+          git config --global user.name "${{ secrets.GIT_USER_NAME }}"
+          git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
+          git add log.txt
+          git commit -m "Audit update $(date -u)" || echo "No changes to commit"
+          git push origin HEAD:main
+```
+*The rest of the workflow remains the same.*
+
 ### Styling Customization
 Modify `style.css` to change:
 - Color schemes
