@@ -1,6 +1,6 @@
 # GitHub Audit Log
 
-**Last updated:** 2025-11-16T02:01:25.704Z
+**Last updated:** 2025-11-16T06:33:58.243Z
 
 ## 📁 agriVision
  Description: Repo of project agriVision for the challenge "Leveraging Earth Observation Data for Informed Agricultural Decision-Making" for the NASA's Space App Challenge
@@ -28,7 +28,7 @@
  Forks: 0
  Size: 190 KB
  Created: 7/17/2025
- Updated: 11/15/2025
+ Updated: 11/16/2025
  README: Available
  Latest Release: None
  Open Issues: 0
@@ -53,6 +53,24 @@
  Latest Release: avinash-lang v1.0.0
  Open Issues: 0
  Open PRs: 0
+ Commits (last year): 1
+ Contributors: 1
+ Workflows: 0
+---
+
+## 📁 brainseg
+ Description: brainseg is a brain MRI segmentation application that allows loading multiple models, processing input scans, visualizing segmentation results, and saving the outputs.
+ Private: No
+ Language: Python
+ Stars: 0
+ Forks: 0
+ Size: 301 KB
+ Created: 10/11/2025
+ Updated: 11/16/2025
+ README: Available
+ Latest Release: None
+ Open Issues: 0
+ Open PRs: 0
  Commits (last year): N/A
  Contributors: 1
  Workflows: 0
@@ -71,7 +89,7 @@
  Latest Release: None
  Open Issues: 0
  Open PRs: 0
- Commits (last year): 8
+ Commits (last year): N/A
  Contributors: 1
  Workflows: 0
 ---
@@ -183,7 +201,7 @@
  Latest Release: None
  Open Issues: 0
  Open PRs: 0
- Commits (last year): 0
+ Commits (last year): N/A
  Contributors: 21
  Workflows: 6
   - Main Catloop: active
@@ -236,9 +254,9 @@
  Language: Python
  Stars: 0
  Forks: 0
- Size: 234336 KB
+ Size: 235127 KB
  Created: 8/1/2025
- Updated: 11/15/2025
+ Updated: 11/16/2025
  README: Available
  Latest Release: None
  Open Issues: 0
@@ -318,7 +336,7 @@
  Latest Release: None
  Open Issues: 0
  Open PRs: 0
- Commits (last year): N/A
+ Commits (last year): 0
  Contributors: 1
  Workflows: 0
 ---
@@ -372,7 +390,7 @@
  Latest Release: None
  Open Issues: 0
  Open PRs: 0
- Commits (last year): N/A
+ Commits (last year): 20
  Contributors: 2
  Workflows: 0
 ---
@@ -476,7 +494,7 @@
  Latest Release: UB GUI v1.1.0
  Open Issues: 0
  Open PRs: 0
- Commits (last year): N/A
+ Commits (last year): 1
  Contributors: 1
  Workflows: 0
 ---
